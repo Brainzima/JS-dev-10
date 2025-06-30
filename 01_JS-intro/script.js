@@ -1,0 +1,1 @@
+console.log("This text is from another file as external js")
