@@ -52,5 +52,5 @@ const bike = {
 console.log(bike)
 bike.start()
 bike.brake()
-bike.fuel()
+bike.fuel() 
 bike.stop()
