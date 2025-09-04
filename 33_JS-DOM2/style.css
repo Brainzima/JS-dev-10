@@ -1,0 +1,21 @@
+input, select, button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+button{
+    cursor: pointer;
+}
+#result{
+    background-color: lightgrey;
+    width: 435px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: rgb(27, 87, 27);
+}
