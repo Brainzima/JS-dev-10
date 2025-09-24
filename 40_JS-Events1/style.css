@@ -1,0 +1,29 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+}
+
+.container{
+    margin: 20px;
+    width: 800px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+#userInput{
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+}
+#data{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 700px;
+    height: 100px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
