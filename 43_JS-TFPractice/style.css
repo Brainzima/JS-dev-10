@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.diya{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    animation: diyaAnim 1s linear infinite;
+}
