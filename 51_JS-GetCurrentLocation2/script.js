@@ -19,14 +19,15 @@ function error(){
     console.log("Getting Error!")
 }
 
-async function getLocationInfo(lat,lon){
-    const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`
+async function getLocationInfo(lat,lon) { 
+    const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
     try {
-        const response = await fetch(url)
-        const data = await response.json()
-        console.log(data)
-        
-    } catch (err) {
-        console.log(err)
+        const response = await fetch(url);
+        const data = await response.json();
+        // document.getElementById('display').textContent=data.address.city
+        document.getElementById('display').textContent=data.address.country
+    } catch (error) {
+        console.error('Error fetching weather:', error);
+        alert('Failed to fetch data.');
     }
 }
