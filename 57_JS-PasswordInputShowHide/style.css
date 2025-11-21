@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.form-group{
+
+}
+.form-group > input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.form-group > button {
+    border: none;
+    background: none;
+    margin-left: -40px;
+    color: brown;
+    cursor: pointer;
+} 
+
+/* .form-group > button {
+    height: 30px;
+    border-radius: 0px 20px 20px 0px;
+    width: 40px;
+    border: none;
+    background: gray;
+    margin-left: -40px;
+}  */
