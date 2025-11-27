@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <h1>My TodoApp with Array</h1>
+        <form onsubmit="submitTodo(e)">
+        <div class="one">
+                <input type="text" id="invalue" placeholder="Your Todo Here...">
+            <button type="submit" onclick="addTodo()">Add Todo</button>
+        </div>
+    </form>
+        <div class="two">
+            <h3>My All Todos: <button onclick="deleteAll()">Delete All</button></h3>
+            <div id="editArea"></div>
+            <ul id="todoList">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
